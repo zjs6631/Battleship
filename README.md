@@ -13,8 +13,9 @@ HOW TO GET JEST STARTED IN A NEW PROJECT:
 /////This should add node_modules to the project? should also add package-lock.json
 2. Run "npm install --save-dev jest"
 
-/////This will allow for the use of module.exports
+/////This will allow for the use of module.exports since import/export statements not currently supported
 3. Create a babel.config.js and add: 
         module.exports = {
             presets: [['@babel/preset-env', {targets: { node: 'current'}}]],
         };
+---------------------------------------------------------------------------------
