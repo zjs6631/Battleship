@@ -1,6 +1,6 @@
 
 
-const Gameboard = () => {
+export const Gameboard = () => {
     let shipCount = 4;
     //USING 2D ARRAY TO REPRESENT GAMEBOARD
     //if arr[x][y] == 0 then noship no miss, == 1 then ship nohit, ==2 then noship miss, ==3 then shit hit

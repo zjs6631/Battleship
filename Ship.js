@@ -1,6 +1,6 @@
 //factory to create ships for battleship game
 
-const ship = (length, sunk) => {
+export const ship = (length, sunk) => {
     let hits = 0
     let xAxis = true;
     const isSunk = () => {

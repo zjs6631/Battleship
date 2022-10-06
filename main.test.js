@@ -1,5 +1,6 @@
 const shipFactory = require("./Ship");
 const gameboardFactory = require("./Gameboard");
+const playerFactory = require("./Player");
 
 
 
@@ -35,4 +36,9 @@ test("invalid hits recognized", () =>{
     newBoard.receiveAttack(0, 0);
     expect(newBoard.receiveAttack(0,0)).toBe(false); //calls the same hit twice
 })
+
+test("player created with 4 ships", () => {
+    let newPlayer = playerFactory();
+    expect(newPlayer.playerShips.length).toBe(4);
+});
 
