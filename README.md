@@ -21,3 +21,6 @@ package.json FILE!!!!!!!!!!!!!!!!
             presets: [['@babel/preset-env', {targets: { node: 'current'}}]],
         };
 ---------------------------------------------------------------------------------
+
+
+I believe I messed up by testing my modules through exporting them. This caused them to become dependencies, which is making creating the DOM a more difficult task. Will reapproach this project using mocking soon. May create new depository for next attempt.
