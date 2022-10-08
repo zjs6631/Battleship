@@ -43,4 +43,7 @@ export const Gameboard = () => {
     return{ shipCount, board, misses, receiveAttack, checkShips};
 };
 
-module.exports = Gameboard;
+if(module.exports){
+    module.exports = Gameboard;
+}
+

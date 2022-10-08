@@ -3,8 +3,7 @@ import {ship as shipFactory} from "./Ship.js";
 import {Gameboard as gameboardFactory} from "./Gameboard.js";
 import {player as playerFactory} from "./Player.js";
 
-
-let player = playerFactory();
+let newPlayer = playerFactory();
 let computer = playerFactory();
 
 let playerBoard = gameboardFactory();

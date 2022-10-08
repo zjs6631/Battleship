@@ -4,6 +4,8 @@ This repo will contain the code for the classic boardgame Battleship. Main premi
 -------------------------------------------------------------------------
 HOW TO GET JEST STARTED IN A NEW PROJECT:
 /////
+USE npm init WHEN STARTING PROJECT TO CREATE THE 
+package.json FILE!!!!!!!!!!!!!!!!
 1. Create a package.json file and add:
             {
                "scripts": {

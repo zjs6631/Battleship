@@ -22,4 +22,5 @@ export const ship = (length, sunk) => {
     return { length, sunk, isSunk, isHit, hits};
 };
 
+
 module.exports = ship;

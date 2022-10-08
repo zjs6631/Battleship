@@ -1,5 +1,6 @@
 const ship = require("./Ship");
-const player = () => {
+
+export const player = () => {
     let carrierShip = ship(5, false);
     let battleship = ship(4, false);
     let cruiser = ship(3, false);
@@ -9,4 +10,8 @@ const player = () => {
     return {playerShips};
 }
 
+
 module.exports = player;
+
+
+
